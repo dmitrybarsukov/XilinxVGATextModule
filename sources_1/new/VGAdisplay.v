@@ -14,7 +14,7 @@ module VGAdisplay(
     );
     
     wire onoff;
-    wire symbolCode;
+    wire [7:0] symbolCode;
     reg [4:0] symbolX;
     reg [4:0] symbolY;
     reg [2:0] pixelX;
