@@ -18,5 +18,4 @@ module textMem(
     end
     
     assign symbolCode = textM[symbolNum];
-
 endmodule
